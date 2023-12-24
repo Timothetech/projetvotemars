@@ -46,7 +46,7 @@ Route::post('/vote-add', [VoteController::class , 'store'])->name('vote.add');
 
 Route::middleware(['auth'])->group(function () {
 
-    Route::get('/dashboard', function () {
+    Route::get('/dashboard-vote-resultat', function () {
         return view('back_office.dashboard');
     })->name('dashboard');
 
