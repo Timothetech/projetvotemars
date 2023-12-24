@@ -83,7 +83,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                 <div class="container mt-5 pt-5">
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h3 class="display-3 text-white animated slideInLeft">Votez <br>la future Miss 8 Mars Cameroun!</h3>
+                            <h2 class=" text-white animated slideInLeft">Votez <br>la future Miss 8 Mars Cameroun!</h2>
                             <p class="text-white animated slideInLeft mb-4 pb-2">événement annuel qui vise à élire la plus belle femme du Cameroun.
                                 Le concours est ouvert à toutes les femmes camerounaises âgées de 18 à 55 ans.</p>
                             <a href="{{route('candidates')}}" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Voir les candidates</a>
