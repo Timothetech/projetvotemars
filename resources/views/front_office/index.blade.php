@@ -53,7 +53,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><span class="text-white"> Miss 8 Mars  </span><i class="fa fa-crown me-3"></i>Cameroun</h1>
+                    <h2 class="text-primary m-0"><span class="text-white"> Miss 8 Mars  </span><i class="fa fa-crown me-3"></i>Cameroun</h2>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
