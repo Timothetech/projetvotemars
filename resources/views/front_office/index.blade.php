@@ -169,6 +169,17 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                             </div>
                         </div>
                     </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        {{-- <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p> --}}
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="{{asset('front/sponsor2.jpg')}}" style="width: 150px; height: 150px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Société Immobilière Intermediation Sarl</h5>
+                                {{-- <small>Profession</small> --}}
+                            </div>
+                        </div>
+                    </div>
                     {{-- <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
                         <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
