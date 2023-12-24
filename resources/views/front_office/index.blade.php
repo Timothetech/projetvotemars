@@ -691,7 +691,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="{{$candidate->image}}"  alt="">
+                                <img class="img-fluid" src="https://concoursmiss8marscameroun.com/storage/{{$candidate->image}}"  alt="">
                             </div>
                             <h5 class="mb-0">{{$key+1}}. {{$candidate->nom}}</h5>
                             <small>{{$candidate->profession}}</small>
