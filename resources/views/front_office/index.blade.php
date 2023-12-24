@@ -84,7 +84,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
                             <h2 class=" text-white animated slideInLeft">Votez <br>la future Miss 8 Mars Cameroun!</h2>
-                            <p class="text-white animated slideInLeft mb-4 pb-2">événement annuel qui vise à élire la plus belle femme du Cameroun.
+                            <p class="text-white animated slideInLeft mb-4 pb-2">Evènement annuel qui vise à élire la plus belle femme du Cameroun.
                                 Le concours est ouvert à toutes les femmes camerounaises âgées de 18 à 55 ans.</p>
                             <a href="{{route('candidates')}}" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Voir les candidates</a>
                         </div>
@@ -132,7 +132,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    {{-- <div class="col-sm-6">
                         <div class="d-flex align-items-center border-start border-5 border-primary px-3">
                             <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">10</h1>
                             <div class="ps-4">
@@ -140,7 +140,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                                 <h6 class="text-uppercase mb-0">d'existence</h6>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <h5 class="section-title ff-secondary text-start fw-normal">Une héroïne, une histoire...</h5>
                 {{-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> --}}
@@ -691,7 +691,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="https://concoursmiss8marscameroun.com/{{$candidate->image}}"  alt="">
+                                <img class="img-fluid" src="https://concoursmiss8marscameroun.com/storage/{{$candidate->image}}"  alt="">
                             </div>
                             <h5 class="mb-0">{{$key+1}}. {{$candidate->nom}}</h5>
                             <small>{{$candidate->profession}}</small>
