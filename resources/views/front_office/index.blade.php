@@ -83,7 +83,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                 <div class="container mt-5 pt-5">
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h2 class="display-3 text-white animated slideInLeft">Votez <br>la future Miss 8 Mars Cameroun!</h2>
+                            <h3 class="display-3 text-white animated slideInLeft">Votez <br>la future Miss 8 Mars Cameroun!</h3>
                             <p class="text-white animated slideInLeft mb-4 pb-2">événement annuel qui vise à élire la plus belle femme du Cameroun.
                                 Le concours est ouvert à toutes les femmes camerounaises âgées de 18 à 55 ans.</p>
                             <a href="{{route('candidates')}}" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Voir les candidates</a>
@@ -701,7 +701,8 @@ $candidates = candidate::orderBy('dossard','asc')->get();
 
                                 <small><h5 class="mb-0">{{$candidate->age}} ans</h5></small>
                             @endif
-                            <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->id}}" href="">voter pour moi</i></a>
+                            <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->candidate->id}}" href="">Donne moi des voix</i></a>
+                            {{-- <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->id}}" href="">voter pour moi</i></a> --}}
                             <div class="modal fade" id="votercandidate{{$candidate->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content rounded-0">
@@ -715,7 +716,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                                                     <div class="col-md-6">
                                                         <div class="bg-transparent border rounded p-4">
                                                             <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                                                            <p>Pour voter vous devez entrer votre téléphone et ensuite faire le dépot minimum 100 FCFA via Orange Money ou MTN Mobile Money</p>
+                                                            <p>Pour voter vous devez entrer votre téléphone et ensuite faire le dépot minimum 100 FCFA = 1VOIX via Orange Money ou MTN Mobile Money</p>
                                                             <div class="d-flex align-items-center">
                                                                 <img class="img-fluid flex-shrink-0 rounded-circle" src="storage/{{$candidate->image}}" style="width: 50px; height: 50px;">
                                                                 <div class="ps-3">
@@ -739,7 +740,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                                                                         <button class="btn btn-primary btn-sm m-0" type="submit">Voter</button>
                                                                 </div>
                                                                 <p class="text-white mb-3">Pour un dépot de 1000, gagner une voix supplémentaire</p>
-
+                                                                <p class="text-white mb-3">100 FCFA = 1 VOIX</p>
                                                             </div>
                                                             </form>
                                                     </div>
