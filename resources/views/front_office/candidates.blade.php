@@ -104,7 +104,7 @@ $candidatesimg = ImagesCandidate::get();
                              <h5 class="mb-0">{{$candidate->candidate->nom}}</h5>
                           {{--  <small>{{$candidate->candidate->profession}}</small>
                             <small><h5 class="mb-0">{{$candidate->candidate->age}} ans</h5></small> --}}
-                            <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->candidate->id}}" href="">voter pour moi</i></a>
+                            <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->candidate->id}}" href="">Donne moi des voix</i></a>
                             <div class="modal fade" id="votercandidate{{$candidate->candidate->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content rounded-0">
@@ -118,7 +118,7 @@ $candidatesimg = ImagesCandidate::get();
                                                     <div class="col-md-6">
                                                         <div class="bg-transparent border rounded p-4">
                                                             <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                                                            <p>Pour voter vous devez entrer votre téléphone et ensuite faire le dépot minimum 100 FCFA via Orange Money ou MTN Mobile Money</p>
+                                                            <p>Pour voter vous devez entrer votre téléphone et ensuite faire le dépot minimum 100 FCFA = 1VOIX via Orange Money ou MTN Mobile Money</p>
                                                             <div class="d-flex align-items-center">
                                                                 <img class="img-fluid flex-shrink-0 rounded-circle" src="storage/{{$candidate->candidate->image}}" style="width: 50px; height: 50px;">
                                                                 <div class="ps-3">
@@ -142,6 +142,7 @@ $candidatesimg = ImagesCandidate::get();
                                                                         <button class="btn btn-primary btn-sm m-0" type="submit">Voter</button>
                                                                 </div>
                                                                 <p class="text-white mb-3">Pour un dépot de 1000, gagner une voix supplémentaire</p>
+                                                                <p class="text-white mb-3">100 FCFA = 1 VOIX</p>
 
                                                             </div>
                                                             </form>
