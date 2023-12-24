@@ -687,80 +687,77 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                     <h1 class="mb-5"> candidates</h1>
                 </div>
                 <div class="row g-4">
-                    @if ($candidates !== null)
-                        @foreach ($candidates as $key=>$candidate)
-                        <div class="col-lg-3 col-md-6">
-                            <div class="team-item text-center rounded overflow-hidden">
-                                <div class="rounded-circle overflow-hidden m-4">
-                                    <img class="img-fluid" src="storage/{{$candidate->image}}"  alt="">
-                                </div>
-                                <h5 class="mb-0">{{$key+1}}. {{$candidate->nom}}</h5>
-                                <small>{{$candidate->profession}}</small>
-                                @if ($candidate->age=="X")
-                                    <br>
-                                @else
+                    @foreach ($candidates as $key=>$candidate)
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="storage/{{$candidate->image}}"  alt="">
+                            </div>
+                            <h5 class="mb-0">{{$key+1}}. {{$candidate->nom}}</h5>
+                            <small>{{$candidate->profession}}</small>
+                            @if ($candidate->age=="X")
+                                <br>
+                            @else
 
-                                    <small><h5 class="mb-0">{{$candidate->age}} ans</h5></small>
-                                @endif
-                                <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->candidate->id}}" href="">Donne moi des voix</i></a>
-                                {{-- <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->id}}" href="">voter pour moi</i></a> --}}
-                                <div class="modal fade" id="votercandidate{{$candidate->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content rounded-0">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Vote</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div class="container-xxl py-5 px-0">
-                                                    <div class="row g-0">
-                                                        <div class="col-md-6">
-                                                            <div class="bg-transparent border rounded p-4">
-                                                                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                                                                <p>Pour voter vous devez entrer votre téléphone et ensuite faire le dépot minimum 100 FCFA = 1VOIX via Orange Money ou MTN Mobile Money</p>
-                                                                <div class="d-flex align-items-center">
-                                                                    <img class="img-fluid flex-shrink-0 rounded-circle" src="storage/{{$candidate->image}}" style="width: 50px; height: 50px;">
-                                                                    <div class="ps-3">
-                                                                        <h5 class="mb-1">{{$candidate->nom}}</h5>
-                                                                    </div>
+                                <small><h5 class="mb-0">{{$candidate->age}} ans</h5></small>
+                            @endif
+                            <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->id}}" href="">Donne moi des voix</i></a>
+                            {{-- <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->id}}" href="">voter pour moi</i></a> --}}
+                            <div class="modal fade" id="votercandidate{{$candidate->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content rounded-0">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Vote</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-xxl py-5 px-0">
+                                                <div class="row g-0">
+                                                    <div class="col-md-6">
+                                                        <div class="bg-transparent border rounded p-4">
+                                                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                                                            <p>Pour voter vous devez entrer votre téléphone et ensuite faire le dépot minimum 100 FCFA = 1VOIX via Orange Money ou MTN Mobile Money</p>
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="img-fluid flex-shrink-0 rounded-circle" src="storage/{{$candidate->image}}" style="width: 50px; height: 50px;">
+                                                                <div class="ps-3">
+                                                                    <h5 class="mb-1">{{$candidate->nom}}</h5>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-6 bg-dark align-items-center">
-                                                                <h5 class="section-title ff-secondary text-start text-primary fw-normal mt-3">Votre</h5>
-                                                                <h6 class="text-white mb-2">Numéro qui a un compte</h6>
-                                                                <form action="{{route('vote.add')}}" method="post" id="">
-                                                                    @csrf
-                                                                    <input type="text" class="form-control" value="{{$candidate->id}}" name="candidate_id" hidden>
-                                                                    <div class="row g-3">
-                                                                        <div class="col-md-12 align-items-center p-3">
-                                                                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Entrer votre numéro pour voter" required>
-                                                                                {{-- <label for="name">Téléphone</label> --}}
-                                                                        </div>
-                                                                        <div class="col-12 mb-3">
-                                                                            <button class="btn btn-primary btn-sm m-0" type="submit">Voter</button>
+                                                    </div>
+                                                    <div class="col-md-6 bg-dark align-items-center">
+                                                            <h5 class="section-title ff-secondary text-start text-primary fw-normal mt-3">Votre</h5>
+                                                            <h6 class="text-white mb-2">Numéro qui a un compte</h6>
+                                                            <form action="{{route('vote.add')}}" method="post" id="">
+                                                                @csrf
+                                                                <input type="text" class="form-control" value="{{$candidate->id}}" name="candidate_id" hidden>
+                                                                <div class="row g-3">
+                                                                    <div class="col-md-12 align-items-center p-3">
+                                                                            <input type="text" class="form-control" id="phone" name="phone" placeholder="Entrer votre numéro pour voter" required>
+                                                                            {{-- <label for="name">Téléphone</label> --}}
                                                                     </div>
-                                                                    <p class="text-white mb-3">Pour un dépot de 1000, gagner une voix supplémentaire</p>
-                                                                    <p class="text-white mb-3">100 FCFA = 1 VOIX</p>
+                                                                    <div class="col-12 mb-3">
+                                                                        <button class="btn btn-primary btn-sm m-0" type="submit">Voter</button>
                                                                 </div>
-                                                                </form>
-                                                        </div>
+                                                                <p class="text-white mb-3">Pour un dépot de 1000, gagner une voix supplémentaire</p>
+                                                                <p class="text-white mb-3">100 FCFA = 1 VOIX</p>
+                                                            </div>
+                                                            </form>
                                                     </div>
                                                 </div>
-                                                </div>
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
-                                {{-- <div class="d-flex justify-content-center mt-3">
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                </div> --}}
-                            </div>
+                                </div>
+                            {{-- <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div> --}}
                         </div>
-                        @endforeach
-
-                    @endif
+                    </div>
+                    @endforeach
                     {{-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
