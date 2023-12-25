@@ -56,7 +56,7 @@ $candidatesimg = ImagesCandidate::get();
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><span class="text-white"> Miss 8 Mars  </span><i class="fa fa-crown me-3"></i>Cameroun</h1>
+                    <h2 class="text-primary m-0"><span class="text-white"> Miss 8 Mars  </span><i class="fa fa-crown me-3"></i>Cameroun</h2>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -104,7 +104,7 @@ $candidatesimg = ImagesCandidate::get();
                              <h5 class="mb-0">{{$candidate->candidate->nom}}</h5>
                           {{--  <small>{{$candidate->candidate->profession}}</small>
                             <small><h5 class="mb-0">{{$candidate->candidate->age}} ans</h5></small> --}}
-                            <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->candidate->id}}" href="">Donne moi des voix</i></a>
+                            <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->candidate->id}}" href="">voter pour moi</i></a>
                             <div class="modal fade" id="votercandidate{{$candidate->candidate->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content rounded-0">
