@@ -89,7 +89,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                             <a href="{{route('candidates')}}" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Voir les candidates</a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                            <img class="img-fluid" src="{{url('assets1/img/hero.png')}}" alt="">
+                            <img class="img-fluid" src="{{url('assets1/img/hero-Copie.png')}}" alt="">
                         </div>
                     </div>
                 </div>
