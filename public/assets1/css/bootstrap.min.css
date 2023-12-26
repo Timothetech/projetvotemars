@@ -3088,15 +3088,15 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
     color: #000;
-    background-color: #feaf39;
-    border-color: #feaa2d
+    background-color: #fde22f;
+    border-color: #fde22f
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #000;
-    background-color: #feaf39;
-    border-color: #feaa2d;
+    background-color: #fde22f;
+    border-color: #fde22f;
     box-shadow: 0 0 0 .25rem rgba(216, 137, 19, 0.5)
 }
 
@@ -3106,8 +3106,8 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
     color: #000;
-    background-color: #feb445;
-    border-color: #feaa2d
+    background-color: #fde22f;
+    border-color: #fde22f
 }
 
 .btn-check:checked+.btn-primary:focus,
@@ -6891,7 +6891,7 @@ fieldset:disabled .btn {
 
 .link-primary:hover,
 .link-primary:focus {
-    color: #feb445
+    color: #fde22f
 }
 
 .link-secondary {
