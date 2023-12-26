@@ -146,7 +146,7 @@ $candidatesimg = ImagesCandidate::get();
                                                                             {{-- <label for="name">Téléphone</label> --}}
                                                                     </div>
                                                                     <div class="col-md-12 align-items-center p-3">
-                                                                            <input type="text" class="form-control" id="montant" name="montant" placeholder="Entrer le nombre de voix(montant)" required>
+                                                                            <input type="text" class="form-control" id="montant" name="montant" placeholder="Entrer le montant" required>
                                                                             {{-- <label for="name">Téléphone</label> --}}
                                                                     </div>
                                                                     <div class="col-12 mb-3">
