@@ -707,7 +707,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                         <a class="btn btn-link" href="">Privacy Policy</a>
                         <a class="btn btn-link" href="">Terms & Condition</a>
                     </div> --}}
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contacts</h4>
                         {{-- <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p> --}}
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+237) 656825594 / 652756233</p>
@@ -719,7 +719,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                             {{-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> --}}
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Ouvert</h4>
                         <h5 class="text-light fw-normal">Lundi - Dimanche</h5>
                         <p>24H/24-7j/7</p>
