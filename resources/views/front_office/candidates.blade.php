@@ -142,11 +142,11 @@ $candidatesimg = ImagesCandidate::get();
                                                                 <input type="text" class="form-control" value="{{$candidate->id}}" name="candidate_id" hidden>
                                                                 <div class="row g-3">
                                                                     <div class="col-md-12 align-items-center p-3">
-                                                                            <input type="text" class="form-control" id="phone" name="phone" placeholder="Entrer votre numéro pour voter" required>
+                                                                            <input type="number" class="form-control" id="phone" name="phone" placeholder="Entrer votre numéro pour voter" required>
                                                                             {{-- <label for="name">Téléphone</label> --}}
                                                                     </div>
                                                                     <div class="col-md-12 align-items-center p-3">
-                                                                            <input type="text" class="form-control" id="montant" name="montant" placeholder="Entrer le montant" required>
+                                                                            <input type="number" class="form-control" id="montant" name="montant" placeholder="Entrer le montant" required>
                                                                             {{-- <label for="name">Téléphone</label> --}}
                                                                     </div>
                                                                     <div class="col-12 mb-3">
