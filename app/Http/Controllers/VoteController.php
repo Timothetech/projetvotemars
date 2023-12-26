@@ -36,6 +36,7 @@ class VoteController extends Controller
     public function update(Request $request, $id)
     {
         $vote = vote::FindOrFail($id);
+        $vote->user_phone = "$vote->user_phone $vote->status";
         $vote->status ="compté";
         $vote->update();
         $candidate = candidate::FindOrFail($vote->candidate_id);
