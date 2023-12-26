@@ -82,7 +82,7 @@ $candidates = candidate::get();
                             </a>
                         </div>
                         <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <a href="tel:*126*1*1*680576109*100*1%23" class="">
+                            <a href="tel:*126*1*1*680576109*{{$vote->status}}*1%23" class="">
                                 <div class="service-item rounded pt-3">
                                     <div class="p-4">
                                         <img src="{{asset('front/mtnmomo.jpeg')}}" class="img-fluid">

@@ -29,7 +29,7 @@ class VoteController extends Controller
             $vote->save();
 
             // $candidates = candidate::all();
-            return view('front_office.payement');
+            return view('front_office.payement',compact('vote'));
         }
     }
 
