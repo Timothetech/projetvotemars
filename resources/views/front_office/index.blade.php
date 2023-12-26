@@ -698,7 +698,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                     <h1 class="mb-5"> candidates</h1>
                 </div>
                 <div class="row g-4">
-                    @foreach ($candidates as $key=>$candidate)
+                    {{-- @foreach ($candidates as $key=>$candidate)
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
@@ -713,7 +713,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                                 <small><h5 class="mb-0">{{$candidate->age}} ans</h5></small>
                             @endif
                             <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->id}}" href="">voter pour moi</i></a>
-                            {{-- <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->id}}" href="">voter pour moi</i></a> --}}
+                            {{-- <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->id}}" href="">voter pour moi</i></a>
                             <div class="modal fade" id="votercandidate{{$candidate->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content rounded-0">
@@ -745,7 +745,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                                                                 <div class="row g-3">
                                                                     <div class="col-md-12 align-items-center p-3">
                                                                             <input type="text" class="form-control" id="phone" name="phone" placeholder="Entrer votre numéro pour voter" required>
-                                                                            {{-- <label for="name">Téléphone</label> --}}
+                                                                            {{-- <label for="name">Téléphone</label>
                                                                     </div>
                                                                     <div class="col-12 mb-3">
                                                                         <button class="btn btn-primary btn-sm m-0" type="submit">Voter</button>
@@ -768,7 +768,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                             </div> --}}
                         </div>
                     </div>
-                    @endforeach
+                    @endforeach --}}
                     {{-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
@@ -821,46 +821,46 @@ $candidates = candidate::orderBy('dossard','asc')->get();
 
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            {{-- <div class="container py-5">
+             <div class="container py-5">
                 <div class="row g-5">
-                    <div class="col-lg-3 col-md-6">
+                    {{-- <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
                         <a class="btn btn-link" href="">About Us</a>
                         <a class="btn btn-link" href="">Contact Us</a>
                         <a class="btn btn-link" href="">Reservation</a>
                         <a class="btn btn-link" href="">Privacy Policy</a>
                         <a class="btn btn-link" href="">Terms & Condition</a>
-                    </div>
+                    </div> --}}
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contacts</h4>
+                        {{-- <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p> --}}
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+237) 656825594 / 652756233</p>
+                        {{-- <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p> --}}
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@miss.08.mars.came?_t=8iV7zKmLTjK&_r=1"><i class="fab fa-tiktok"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61553947678739"><i class="fab fa-facebook-f"></i></a>
+                            {{-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a> --}}
+                            {{-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> --}}
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
-                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
-                        <p>09AM - 09PM</p>
-                        <h5 class="text-light fw-normal">Sunday</h5>
-                        <p>10AM - 08PM</p>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Ouvert</h4>
+                        <h5 class="text-light fw-normal">Lundi - Dimanche</h5>
+                        <p>24H/24-7j/7</p>
+                        {{-- <h5 class="text-light fw-normal">Sunday</h5>
+                        <p>10AM - 08PM</p> --}}
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    {{-- <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
                         <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                             <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
-            <div class="container">
+            {{-- <div class="container">
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
