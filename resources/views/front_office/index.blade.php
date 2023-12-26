@@ -713,7 +713,7 @@ $candidates = candidate::orderBy('dossard','asc')->get();
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+237) 656825594 / 652756233</p>
                         {{-- <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p> --}}
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@miss.08.mars.came?_t=8iV7zKmLTjK&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@miss.08.mars.came?_t=8iV7zKmLTjK&_r=1"><i class="fab fa-tiktok"></i></a>
                             <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61553947678739"><i class="fab fa-facebook-f"></i></a>
                             {{-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a> --}}
                             {{-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> --}}
