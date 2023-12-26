@@ -50,6 +50,10 @@ Route::middleware(['auth'])->group(function () {
         return view('back_office.dashboard');
     })->name('dashboard');
 
+    Route::get('/register', function () {
+        return view('back_office.register');
+    })->name('register');
+
     Route::get('/candidates-back', function () {
         return view('back_office.candidates');
     })->name('candidates.back');
