@@ -109,7 +109,7 @@ $candidatesimg = ImagesCandidate::get();
 
                                 <small><h5 class="mb-0">{{$candidate->age}} ans</h5></small>
                                 @endif
-                                <small><h5 class="mb-0">{{$candidate->nombre}} voix</h5></small>
+                                <small><h5 class="mb-0 text-warning">{{$candidate->nombre}} voix</h5></small>
                             <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->id}}" href="">votez moi</i></a>
                             {{-- <a class="btn btn-primary mx-1 mb-2" data-bs-toggle="modal" data-bs-target="#votercandidate{{$candidate->id}}" href="">voter pour moi</i></a> --}}
                             <div class="modal fade" id="votercandidate{{$candidate->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
