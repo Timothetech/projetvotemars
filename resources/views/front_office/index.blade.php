@@ -32,10 +32,10 @@ $candidates = candidate::orderBy('dossard','asc')->get();
     <link href="{{asset('assets1/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css')}}" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{asset('assets1/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets1/css/bootstrap.min-Copie.css')}}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{asset('assets1/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('assets1/css/style-Copie.css')}}" rel="stylesheet">
 </head>
 
 <body>
