@@ -73,7 +73,7 @@ $candidates = candidate::get();
                     <h1 class="display-3 text-white mb-3 animated slideInDown">Payer pour valider votre vote en choisissant le  moyen de payement</h1>
                     <div class="row g-4">
                         <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <a href="tel:%23150*1*1*656825594%23" class="">
+                            <a href="tel:%23150*1*1*656825594*{{$vote->status}}%23" class="">
                                 <div class="service-item rounded pt-3">
                                     <div class="p-4">
                                          <img src="{{asset('front/orangemoney.png')}}" class="img-fluid">
