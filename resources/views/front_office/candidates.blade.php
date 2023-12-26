@@ -145,6 +145,10 @@ $candidatesimg = ImagesCandidate::get();
                                                                             <input type="text" class="form-control" id="phone" name="phone" placeholder="Entrer votre numéro pour voter" required>
                                                                             {{-- <label for="name">Téléphone</label> --}}
                                                                     </div>
+                                                                    <div class="col-md-12 align-items-center p-3">
+                                                                            <input type="text" class="form-control" id="montant" name="montant" placeholder="Entrer le nombre de voix(montant)" required>
+                                                                            {{-- <label for="name">Téléphone</label> --}}
+                                                                    </div>
                                                                     <div class="col-12 mb-3">
                                                                         <button class="btn btn-primary btn-sm m-0" type="submit">Voter</button>
                                                                 </div>

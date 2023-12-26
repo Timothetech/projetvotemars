@@ -24,6 +24,8 @@ class VoteController extends Controller
             $vote = new vote();
             $vote->candidate_id = $request->input('candidate_id');
             $vote->user_phone = $phone;
+            $vote->status =$request->input('montant');;
+
             $vote->save();
 
             // $candidates = candidate::all();

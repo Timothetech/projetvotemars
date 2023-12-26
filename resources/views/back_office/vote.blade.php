@@ -33,7 +33,7 @@
 @section('content')
 @php
     use App\Models\vote;
-    $votes = vote::where('status','en attente')->get();
+    $votes = vote::whereNot('status','compté')->get();
 @endphp
 <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Votes /</span> Liste</h4>
 <div class="mt-0 card">
@@ -61,7 +61,7 @@
                         @if ($vote->status == 'en attente')
                         <td><span class="badge text-warning">{{$vote->status}}</span></td>
                         @else
-                        <td><span class="badge text-success">{{$vote->status}}</span></td>
+                        <td><span class="badge text-warning">{{$vote->status}}</span></td>
                         @endif
                         <td>
                             {{-- <a href="{{route('vote.update',$vote->id)}}"><span
