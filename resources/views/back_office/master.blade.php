@@ -79,9 +79,9 @@
 
                     <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
                         <!-- Search -->
-                        <div class="navbar-nav align-items-center">
+                        {{-- <div class="navbar-nav align-items-center">
                             <h5 class="card-title text-warning mb-0">Visualsez les résultats du vote! 🎉</h5>
-                        </div>
+                        </div> --}}
                         <!-- /Search -->
 
                         <ul class="navbar-nav flex-row align-items-center ms-auto">
