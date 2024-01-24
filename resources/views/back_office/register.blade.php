@@ -101,7 +101,7 @@
                         class="form-control"
                         name="password_confirmation"
                         placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
-                        aria-describedby="password_confirmation"
+                        aria-describedby=""
                         required
                       />
                       <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
