@@ -15,9 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('front_office.index');
+// })->name('home');
+
 Route::get('/', function () {
-    return view('front_office.index');
-})->name('home');
+    return view('landing.index');
+});
 
 // Route::get('/home', function () {
 //     return view('front_office.index');

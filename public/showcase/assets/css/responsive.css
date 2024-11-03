@@ -1,0 +1,1574 @@
+/* Normal desktop :1500px. */
+@media (min-width: 1500px) and (max-width: 1700px) {
+.screenshot-area .section-title.t-center .section-description p {
+    width: 41%;
+}
+
+
+}
+/* Normal desktop :1300px. */
+@media (min-width: 1300px) and (max-width: 1499px) {
+
+.row.screenshot {
+    width: 1200px;
+}
+.screenshot-area .section-title.t-center .section-description p {
+    width: 48%;
+}
+
+
+
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1299px) {
+.hero-section-title h1 {
+    font-size: 60px;
+}
+.row.screenshot {
+    width: 1150px;
+	padding:0;
+}
+.screenshot-area .section-title.t-center .section-description p {
+    width: 54%;
+}
+.single-widget.four {
+    right: 62px;
+}
+
+
+}
+/* Normal desktop :1170px. */
+@media (min-width: 1170px) and (max-width: 1199px) {
+.zomia_menu > ul > li > a {
+    margin: 27px 8px;
+    font-size: 17px;
+}
+.search-box-btn.search-box-outer {
+    margin-right: 8px;
+}
+.hero-section-title h1 {
+    font-size: 55px;
+}
+.section-title.t-center .section-description p {
+    width: 64%;
+}
+.widget-icon-thumb a img {
+    width: 47%;
+    height: 43px;
+}
+.widge-about-text p {
+    line-height: 25px;
+    font-size: 15px;
+}
+.widge-link ul li {
+    margin-bottom: 15px;
+}
+.section-main-title h1 {
+    font-size: 37px;
+}
+.section-main-title h2 {
+    font-size: 37px;
+}
+.row.screenshot {
+    width: 1050px;
+	padding:0;
+}
+.screenshot-area .section-title.t-center .section-description p {
+    width: 51%;
+}
+/*blog area start */
+.blog-meta a, .blog-meta span {
+    font-size: 14px;
+}
+.blog-content {
+    padding: 22px 22px 38px;
+}
+.blog-meta span {
+    font-size: 14px;
+}
+.blog-meta span {
+    margin-right: 25px;
+}
+.blog-meta {
+    text-align: left;
+}
+.blog-meta i {
+    color: #5f4ff8;
+    margin-right: 7px;
+    font-size: 13px;
+}
+.blog-meta span::before {
+    right: -19px;
+}
+.blog-list-left input[type="email"] {
+    width: 71% !important;
+}
+
+
+}
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+/* header menu */
+.header-donate-btn a {
+    font-size: 15px;
+}	
+.zomia_menu > ul > li > a {
+    margin: 27px 7px;
+    font-size: 17px;
+}
+.search-box-btn.search-box-outer {
+    margin-right: 8px;
+}
+/*hero section start */
+.hero-section {
+    padding: 60px 0 0 0;
+    height: 830px;
+}
+.hero-section-title h1 {
+    font-size: 55px;
+}
+.hero-thumb {
+    left: 40px;
+}
+.hero-thumb img {
+    width: 100%;
+}
+@keyframes hero-icon-up-down{
+  0% { left:45px; top:-20px;}
+  100% { left:45px; top:5px;}
+}
+@keyframes hero-icon-up-down2{
+  0% { left:30%; top:-55px;}
+  100% { left:30%; top:-30px;}
+}
+@keyframes hero-icon-up-down3{
+  0% { right: 42%; top:-100px;}
+  100% { right: 42%; top:-70px;}
+}
+/*feedback area start */
+.feedback-thumb {
+    padding: 0 27px 50px 0;
+}
+.feedback-right {
+    padding: 0;
+}
+.single-feedback.two {
+    left: 15px;
+}
+/*process area start */
+.process-content {
+    padding: 45px 27px 23px;
+}
+/*screenshot area start */
+.row.screenshot {
+    width: 950px;
+	padding:0;
+}
+.screenshot-area .section-title.t-center .section-description p {
+    width: 63%;
+}
+.section-title.t-center .section-description p {
+    width: 65%;
+}
+.section-main-title h1 {
+    font-size: 36px;
+}
+.section-main-title h2 {
+    font-size: 36px;
+}
+/*blog area start */
+.blog-meta a, .blog-meta span {
+    font-size: 14px;
+}
+.blog-content {
+    padding: 22px 22px 38px;
+}
+.blog-meta span {
+    font-size: 14px;
+}
+.blog-meta span {
+    margin-right: 25px;
+}
+.blog-meta {
+    text-align: left;
+}
+.blog-meta i {
+    color: #5f4ff8;
+    margin-right: 7px;
+    font-size: 13px;
+}
+.blog-meta span::before {
+    right: -19px;
+}
+/* blog list area start */
+.blog-list-left input[type="email"] {
+    width: 71% !important;
+}
+/* faq area start */
+.faq-single-thumb.img-animation img {
+    width: 100%;
+}
+/* footer area start */
+.single-widget.four {
+    right: 30px;
+    width: 100%;
+}
+a.widget-apps {
+    display: none;
+}
+.widge-about-text p {
+    font-size: 15px;
+}
+.widget-icon-title h4 {
+    line-height: 25px;
+}
+.widge-link ul li {
+    margin-bottom: 20px;
+}
+
+
+
+}
+
+/* small mobile :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+/*hero section start */
+.hero-section {
+    padding: 0;
+    height: 700px;
+}
+.hero-section-title h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.hero-description p {
+    font-size: 18px;
+}
+.hero-thumb img {
+    width: 123%;
+}
+@keyframes hero-icon-up-down{
+  0% { left:0px; top:-20px;}
+  100% { left:0px; top:5px;}
+}
+@keyframes hero-icon-up-down2{
+  0% { left:20%; top:-55px;}
+  100% { left:20%; top:-30px;}
+}
+@keyframes hero-icon-up-down3{
+  0% { right: 42%; top:-100px;}
+  100% { right: 42%; top:-70px;}
+}
+/*feature area start */
+.feature-area {
+    padding: 50px 0 100px 0;
+}
+.feature-btn {
+    padding: 0 0 50px 0;
+}
+.section-main-title h2 {
+    font-size: 35px;
+}
+.section-main-title h1 {
+    font-size: 35px;
+}
+.feature-content.four::after {
+    bottom: 76px;
+}
+.feature-content:hover::after {
+    top: 0;
+    bottom: 0;
+}
+/*process area start */
+.section-title.t-center .section-description p {
+    width: 86%;
+}
+.process-title-shape-thumb {
+    left: -25px;
+}
+/*about us area start */
+.about-us-area {
+    padding: 70px 0 100px 0;
+}
+.about-thumb {
+    left: 0;
+}
+.about-section-right {
+    padding: 0 0 40px 0;
+}
+.about-icon-thumb {
+    top: 4%;
+    left: 6%;
+}
+@keyframes abt-up-down{
+  0% { left:7%; top:30%;}
+  100% { left:7%; top:26%;}
+}
+@keyframes shape-up-down{
+  0% { right:40px; top:0%;}
+  100% { right:40px; top:6%;}
+}
+/*screenshot area start */
+.row.screenshot {
+    width: 740px;
+	padding:0;
+}
+.screenshot-area .section-title.t-center .section-description p {
+    width: 83%;
+}
+/*feedback area start */
+.feedback-right {
+    padding: 50px 0 0 40px;
+}
+.single-feedback {
+    width: 85%;
+}
+/*call area start */
+.call-do-action-right {
+    padding: 60px 0 0 0;
+}
+@keyframes call-up-down{
+  0% { left:50px; top:0;}
+  100% { left:50px; top:30px;}
+}
+.single-pricing {
+    padding: 40px 0 0 0;
+}
+/* pricing-area-start */
+.single-map.three {
+    top: 0;
+}
+/*contact area start */
+.contact-title h2 {
+    margin: 40px 0 34px;
+}
+/*blog area start */
+.blog-area .section-description p {
+    width: 86%;
+}
+.blog-meta a, .blog-meta span {
+    font-size: 14px;
+}
+.blog-content {
+    padding: 22px 22px 38px;
+}
+.blog-meta span {
+    font-size: 14px;
+}
+.blog-meta span {
+    margin-right: 25px;
+}
+.blog-meta {
+    text-align: left;
+}
+.blog-meta i {
+    color: #5f4ff8;
+    margin-right: 7px;
+    font-size: 13px;
+}
+.blog-meta span::before {
+    right: -19px;
+}
+/*blog list area start */
+.recent-post-thumb {
+    width: inherit;
+}
+.blog-list-left input[type="email"] {
+    width: 80% !important;
+}
+.blog-list-left input[type="submit"] {
+    padding: 8px 38px;
+}
+.all-date {
+    width: 63%;
+    margin: 0 0 0 6px;
+}
+.comment-area .input-button {
+    margin-bottom: 60px;
+}
+/* faq area start */
+.faq-single-thumb.img-animation img {
+    width: 100%;
+}
+.faq-area .section-description p {
+    width: 90%;
+}
+ul.accordion li a.active::before {
+    width: 55%;
+}
+.faq-single-thumb.img-animation {
+    padding-top: 40px;
+    width: 100%;
+    margin: auto;
+}
+.breatcome-area {
+    padding: 150px 0 150px 0;
+}
+/* footer area start */
+.single-widget.upper {
+    padding-left: 0;
+}
+.single-widget.four {
+    width: 100%;
+}
+
+
+
+}
+/* small mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+/*hero section start */
+.hero-section {
+    padding: 0 0 55px 0;
+    height: 950px;
+}
+.hero-section-right {
+    padding: 85px 0 0 0;
+    left: 35px;
+}
+.hero-section-title h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.hero-description p {
+    font-size: 18px;
+}
+.hero-thumb img {
+    width: 100%;
+}
+@keyframes hero-icon-up-down{
+  0% { left:-30px; top:100px;}
+  100% { left:-30px; top:75px;}
+}
+@keyframes hero-icon-up-down2{
+  0% { left:15%; top:60px;}
+  100% { left:15%; top:35px;}
+}
+@keyframes hero-icon-up-down3{
+  0% { right: 55%; top:-10px;}
+  100% { right: 55%; top:15px;}
+}
+/*feature area start */
+.feature-btn {
+    padding: 0 0 50px 0;
+}
+.section-main-title h2 {
+    font-size: 32px;
+}
+.section-main-title h1 {
+    font-size: 32px;
+}
+.feature-content.four::after {
+    bottom: 100px;
+}
+/*about us area start */
+.about-section-right {
+    padding: 0 0 40px 0;
+}
+.about-thumb {
+    left: -9%;
+}
+.about-icon-thumb {
+    top: 4%;
+    left: 0;
+}
+@keyframes abt-up-down{
+  0% { left:5%; top:30%;}
+  100% { left:5%; top:26%;}
+}
+@keyframes shape-up-down{
+  0% { right:-40px; top:0%;}
+  100% { right:-40px; top:6%;}
+}
+/*process area start */
+.section-title.t-center .section-description p {
+    width: 100%;
+}
+.process-title-shape-thumb img {
+    width: 100%;
+}
+/* screenshot-area-start */
+.row.screenshot {
+    width: 580px;
+	padding:0;
+}
+.screenshot-area .section-title.t-center .section-description p {
+    width: 100%;
+}
+/*feedback area start */
+.feedback-area {
+    padding: 100px 0 70px 0;
+}
+.feedback-right {
+    padding: 50px 0 0 20px;
+}
+.single-feedback {
+    width: 95%;
+}
+.single-feedback.two {
+    left: 45px;
+}
+/*call area start */
+.call-do-action-right {
+    padding: 60px 0 0 0;
+}
+@keyframes call-up-down{
+  0% { left:0px; top:0;}
+  100% { left:0px; top:25px;}
+}
+/* pricing-area-start */
+.single-pricing {
+    padding: 40px 0 0 0;
+}
+/* map-area-start */
+.map-content {
+    width: 288px;
+}
+/*contact area start */
+.contact-title h2 {
+    margin: 40px 0 34px;
+}
+/* blog-area-start */
+.blog-area .section-description p {
+    width: 95%;
+}
+.blog-description p {
+    font-size: 16px;
+}
+.blog-area .owl-nav {
+    display:none;
+}
+/* blog details area start */
+.blog-area.blog-grid .blog-meta span::before {
+	left: -17px;
+}
+.blog-details-inner h3 {
+	font-size: 24px;
+}
+.comment-area .input-button {
+	margin-bottom: 60px;
+}
+.blog-form-field {
+	width: 90%;
+}
+.blog-list-left input[type="submit"] {
+	padding: 8px 37px;
+}
+.recent-post-thumb {
+	margin-right: 30px;
+	width: auto;
+}
+p.blog-submit-button {
+	right: -45px;
+}
+.blog-area .section-description p {
+	width: 80%;
+}
+.all-date {
+	width: 80%;
+	margin: 0 0 0 3px;
+}
+/* faq area start */
+.faq-single-thumb.img-animation img {
+    width: 100%;
+}
+.faq-area .section-description p {
+    width: 100%;
+}
+ul.accordion li a.active::before {
+    width: 70%;
+}
+.faq-single-thumb.img-animation {
+    padding-top: 40px;
+    width: 100%;
+    margin: auto;
+}
+/* call-area-start */
+.call-input input {
+    height: 60px;
+    width: 500px;
+    margin: 0 0 20px 0;
+}
+button.call-submit-button {
+    height: 60px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.call-area .section-description p {
+    width: 90%;
+    margin: auto;
+}
+/* footer-area-start */
+.single-widget.upper {
+    padding: 25px 0 0 0;
+}
+.single-widget.four {
+    right: 0;
+    width: 100%;
+}
+.submit-button {
+    right: -22px;
+}
+.footer-menu ul li a {
+    padding: 0 6px 0 0;
+}
+.copyright-text p {
+    font-size: 14px;
+}
+#scrollUp {
+    bottom: 20px;
+    font-size: 27px;
+    right: 25px;
+}
+
+
+}
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+/*hero section start */
+.hero-section {
+    padding: 0 0 55px 0;
+    height: 900px;
+}
+.hero-section-right {
+    padding: 100px 0 0 0;
+    left: 35px;
+}
+.hero-section-title h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+.hero-description p {
+    font-size: 17px;
+}
+.hero-thumb img {
+    width: 100%;
+}
+@keyframes hero-icon-up-down{
+  0% { left:-30px; top:100px;}
+  100% { left:-30px; top:75px;}
+}
+@keyframes hero-icon-up-down2{
+  0% { left:11%; top:60px;}
+  100% { left:11%; top:35px;}
+}
+@keyframes hero-icon-up-down3{
+  0% { right: 50%; top:10px;}
+  100% { right: 50%; top:35px;}
+}
+/*feature area start */
+.feature-area {
+    padding: 0 0 80px 0;
+}
+.feature-btn {
+    padding: 0 0 40px 0;
+}
+.section-main-title h2 {
+    font-size: 25px;
+}
+.section-main-title h1 {
+    font-size: 25px;
+}
+.feature-description p {
+    font-size: 15px;
+}
+.zomia-button a {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.zomia-button a  i {
+    margin-left: 3px;
+    font-size: 14px;
+}
+.feature-content {
+    margin: 0 0 35px 0;
+}
+.feature-content.four::after {
+    bottom: 75px;
+}
+.feature-content:hover::after {
+    top: 0;
+    bottom: 0;
+}
+.feature-area.service {
+    padding: 80px 0 90px 0;
+}
+/*about us area start */
+.about-us-area {
+    padding: 60px 0 80px 0;
+}
+.about-thumb {
+    left: -9%;
+}
+.about-thumb img {
+    width: 100%;
+}
+.about-shape-thumb.shape-img-animation img {
+    width: 50%;
+}
+.abt-thumb img {
+    width: 100%;
+}
+.about-icon-thumb {
+    display: none;
+}
+@keyframes abt-up-down{
+  0% { left:5%; top:27%;}
+  100% { left:5%; top:22%;}
+}
+@keyframes shape-up-down{
+  0% { right:-20px; top:-2%;}
+  100% { right:-20px; top:4%;}
+}
+.about-section-right {
+    padding: 0 0 40px 0;
+}
+.about-content-inner h4 {
+    font-size: 14px;
+}
+/*process area start */
+.process-area {
+    padding: 80px 0 50px 0;
+}
+.process-title-shape-thumb {
+    top: -14px;
+}
+.process-title h3 {
+    font-size: 20px;
+}
+.section-title.t-center .section-description p {
+    width: 100%;
+}
+.process-title-shape-thumb img {
+    width: 100%;
+}
+/* screenshot-area-start */
+.screenshot-area {
+    padding: 80px 0 50px 0;
+}
+.row.screenshot {
+    width:300px;
+	padding:0;
+}
+.screenshot-area .section-title.t-center .section-description p {
+    width: 100%;
+}
+/*feedback area start */
+.feedback-area {
+    padding: 80px 0 70px 0;
+}
+.feedback-right {
+    padding: 50px 0 0 20px;
+}
+.single-feedback {
+    width: 100%;
+}
+.single-feedback.two {
+    left: 0;
+}
+.feedback-icon-thumb {
+    display: none;
+}
+.feedback-content {
+    padding: 35px 25px 33px;
+}
+.feedback-thumb {
+    padding: 0 20px 20px 0;
+}
+/* team-area-start */
+.team-area {
+    padding: 70px 0px 65px 0px;
+}
+.team-title-thumb img {
+    width: 100%;
+}
+.barand-area {
+    padding: 80px 0 80px 0;
+}
+.process-content {
+    text-align: center;
+}
+/*call area start */
+.call-do-action-area {
+    padding: 80px 0px 80px 0px;
+}
+.call-do-action-right {
+    padding: 60px 0 0 0;
+}
+@keyframes call-up-down{
+  0% { left:0px; top:0;}
+  100% { left:0px; top:25px;}
+}
+.call-do-action-thumb img {
+    width: 100%;
+}
+.call-do-button {
+    display: contents;
+}
+/* pricing-area-start */
+.pricing-area {
+    padding: 80px 0 80px 0;
+}
+.single-pricing {
+    padding: 40px 0 0 0;
+}
+span.dollar {
+    font-size: 35px;
+    top: 6px;
+}
+.priceing-btn a {
+    font-size: 15px;
+}
+/* map-area-start */
+.map-area {
+    padding: 80px 0 160px 0;
+}
+.map-bg {
+    display: none;
+}
+.map-bg.active {
+    display: block;
+}
+.map-content.active {
+    left: -32px;
+    width: 288px;
+}
+.single-map.two {
+    top: 0;
+    left: 30px;
+}
+.portfolio-section {
+    padding: 80px 0px 50px 0px;
+}
+/* blog-area-start */
+.blog-area.blog-grid {
+    background: #fff;
+    padding: 70px 0 50px 0;
+}
+.blog-area.blog-details-area {
+    padding: 80px 0 70px 0;
+}
+.blog-list-inner h3 a {
+    font-size: 20px;
+}
+.blog-area .section-description p {
+    width: 100%;
+}
+.blog-title h3 {
+    font-size: 18px;
+}
+.blog-meta a, .blog-meta span {
+    margin-right: 10px;
+    font-size: 13px;
+}
+.blog-meta span::before {
+	display:none;
+}
+.blog-area .owl-nav {
+    display:none;
+}
+/* blog details area start */
+.single-blog-details .blog-content {
+	padding: 38px 20px 45px;
+}
+a.blog-comment {
+	display: none;
+}
+.blog-form-field {
+	width: 90%;
+}
+.blog-list-left input[type="submit"] {
+	padding: 8px 15px;
+}
+.recent-post-thumb {
+	margin-right: 20px;
+	width: auto;
+}
+p.blog-submit-button {
+	right: -27px;
+}
+.blog-details-inner p {
+    text-align: justify;
+    font-size: 14px;
+}
+.single-blog-list.single-blog-details .blog-meta span::before {
+	display:none;
+}
+.blog-calender td {
+	padding: 5px 7px;
+}
+.blog-list-left {
+	padding: 35px 20px 35px;
+}
+.blog-list-left input[type="email"] {
+	width: 72% !important;
+}
+.blog-meta-date {
+	bottom: -28px;
+	right: 20px;
+	padding: 4px 10px 8px 10px;
+	box-shadow: 0 10px 60px #0003;
+}
+.blog-area .section-description p {
+	width: 100%;
+}
+.blog-area.project-area .blog-meta span {
+	margin-right: 18px;
+}
+.blog-area.project-area .blog-meta a {
+	margin: 0 0 0 8px;
+}
+.blog-meta span::before {
+	right: -20px;
+}
+.blog-area.about-us .blog-meta span {
+	margin-right: 18px;
+}
+.blog-area.about-us .blog-meta a {
+	margin: 0 0 0 8px;
+}
+.blog-details-inner h3 {
+	font-size: 24px;
+	margin: 17px 0 10px 0;
+}
+.comment-area .input-button {
+	margin-bottom: 60px;
+}
+.blog-dtls-desc {
+	padding: 1px 15px 12px;
+	font-size: 18px;
+}
+.blog-details-inner h3 {
+    font-size: 20px;
+}
+.blog-details-social-icon a i {
+    margin: 5px 10px 5px 10px;
+}
+.blog-details-social-icon {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.comment-area .input-button button {
+    padding: 12px 30px;
+}
+/* contact area start */
+.contact-address {
+    padding: 50px 0px 15px 10px;
+}
+.contact-icon i {
+    font-size: 35px;
+    padding-right: 12px;
+}
+.contact-title h2 {
+    font-size: 28px;
+}
+.input-box textarea {
+    height: 120px;
+}
+.contact-title {
+    padding: 40px 0 0 0;
+}
+.contact-area {
+    padding: 0 0 80px 0;
+}
+.contact-section {
+    padding: 25px 10px 25px 10px;
+}
+/* faq area start */
+.faq-single-thumb.img-animation img {
+    width: 100%;
+}
+.faq-area .section-description p {
+    width: 100%;
+}
+ul.accordion li a.active::before {
+    width: 70%;
+}
+.faq-single-thumb.img-animation {
+    padding-top: 30px;
+    width: 100%;
+    margin: auto;
+}
+ul.accordion li a.active i {
+    transform: rotate(90deg);
+    right: 24px;
+    top: 15px;
+}
+ul.accordion li a.active::before {
+    left: 10px;
+}
+.faq-area .accordion a {
+    font-size: 16px;
+    text-indent: 0;
+    width: 100%;
+    padding: 15px 50px 15px 15px;
+}
+.faq-area {
+    padding: 85px 0px 50px 0px;
+}
+.faq-area .accordion p {
+    font-size: 15px;
+}
+.faq-area .accordion li a.active {
+    padding: 15px 60px 0 10px;
+    font-size: 17px;
+}
+/* footer-area-start */
+.footer-area {
+    padding: 80px 0 20px;
+}
+.single-widget.upper {
+    padding: 25px 0 0 0;
+}
+.single-widget.four {
+    right: 0;
+    width: 100%;
+}
+.form-field input {
+    width: 80%;
+	height:50px;
+}
+.submit-button {
+    height: 50px;
+}
+.widget-icon-thumb a img {
+    width: 45%;
+}
+a.widget-apps img {
+    width: 45%;
+}
+.submit-button {
+    right: 4px;
+}
+.form-field input:focus {
+    width: 80%;
+}
+.footer-area input[type="email"]:focus {
+    width:80%;
+}
+.footer-menu ul li a {
+    padding: 0 6px 0 0;
+}
+.copyright-text p {
+    font-size: 14px;
+}
+.copyright-text {
+    margin-top: 30px;
+}
+.footer-menu {
+    text-align: center;
+}
+#scrollUp {
+    bottom: 20px;
+    font-size: 27px;
+    right: 10px;
+}
+.breatcome-area {
+    padding: 120px 0 120px 0;
+}
+.breatcome-title h1 {
+    font-size: 32px;
+	margin-bottom: 20px;
+}
+.breatcome-text ul li a {
+    font-size: 14px;
+}
+.breatcome-text ul li span {
+    font-size: 14px;
+}
+.mobile-menu-logo.text-center {
+    padding: 12px 0;
+}
+
+
+
+}
+
+/* small mobile :280px. */
+@media only screen and (min-width: 280px) and (max-width: 319px) {
+/*hero section start */
+.hero-section {
+    padding: 0 0 50px 0;
+    height: 850px;
+}
+.hero-section-right {
+    padding: 100px 0 0 0;
+    left: 35px;
+}
+.hero-section-title h1 {
+    font-size: 28px;
+    line-height: 35px;
+}
+.hero-description p {
+    font-size: 16px;
+}
+.hero-thumb img {
+    width: 100%;
+}
+@keyframes hero-icon-up-down{
+  0% { left:-30px; top:95px;}
+  100% { left:-30px; top:70px;}
+}
+@keyframes hero-icon-up-down2{
+  0% { left:11%; top:60px;}
+  100% { left:11%; top:35px;}
+}
+@keyframes hero-icon-up-down3{
+  0% { right: 45%; top:30px;}
+  100% { right: 45%; top:10px;}
+}
+/*feature area start */
+.feature-area {
+    padding: 0 0 80px 0;
+}
+.feature-btn {
+    padding: 0 0 40px 0;
+}
+.section-sub-title h5 {
+    font-size: 18px;
+}
+.section-main-title h2 {
+    font-size: 20px;
+}
+.section-main-title h1 {
+    font-size: 20px;
+}
+.feature-description p {
+    font-size: 15px;
+}
+.zomia-button a {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.zomia-button a  i {
+    margin-left: 3px;
+    font-size: 14px;
+}
+.feature-content {
+    margin: 0 0 35px 0;
+}
+.feature-content.four::after {
+    bottom: 100px;
+}
+.feature-content:hover::after {
+    top: 0;
+    bottom: 0;
+}
+.feature-area.service {
+    padding: 80px 0 90px 0;
+}
+/*about us area start */
+.about-us-area {
+    padding: 80px 0 80px 0;
+}
+.about-section-right {
+    padding: 0 0 40px 0;
+}
+.about-thumb {
+    left: -9%;
+}
+.about-thumb img {
+    width: 100%;
+}
+.about-shape-thumb.shape-img-animation img {
+    width: 50%;
+}
+.abt-thumb img {
+    width: 100%;
+}
+.about-icon-thumb {
+    display: none;
+}
+@keyframes abt-up-down{
+  0% { left:5%; top:27%;}
+  100% { left:5%; top:22%;}
+}
+@keyframes shape-up-down{
+  0% { right:-20px; top:-2%;}
+  100% { right:-20px; top:4%;}
+}
+.about-content-inner h4 {
+    font-size: 12px;
+}
+.about-content-inner ul li i {
+    margin-right: 8px;
+}
+.process-content {
+    text-align: center;
+}
+/*process area start */
+.process-area {
+    padding: 75px 0 50px 0;
+}
+.process-title-shape-thumb {
+    top: -14px;
+}
+.process-title h3 {
+    font-size: 20px;
+}
+.section-title.t-center .section-description p {
+    width: 100%;
+}
+.process-title-shape-thumb img {
+    width: 100%;
+}
+.process-content {
+    padding: 45px 16px 23px;
+}
+/* screenshot-area-start */
+.screenshot-area {
+    padding: 80px 0 50px 0;
+}
+.row.screenshot {
+    width:260px;
+	padding:0;
+}
+.screenshot-area .section-title.t-center .section-description p {
+    width: 100%;
+    font-size: 14px;
+}
+/*feedback area start */
+.feedback-area {
+    padding: 80px 0 60px 0;
+}
+.feedback-right {
+    padding: 50px 0 0 20px;
+}
+.single-feedback {
+    width: 100%;
+}
+.single-feedback.two {
+    left: 0;
+}
+.feedback-icon-thumb {
+    display: none;
+}
+.feedback-content {
+    padding: 35px 25px 33px;
+}
+.feedback-thumb {
+    padding: 0 15px 20px 0;
+}
+/* team-area-start */
+.team-area {
+    padding: 70px 0px 65px 0px;
+}
+.team-title-thumb img {
+    width: 100%;
+}
+/*call area start */
+.call-do-action-area {
+    padding: 80px 0px 80px 0px;
+}
+.call-do-action-right {
+    padding: 60px 0 0 0;
+}
+@keyframes call-up-down{
+  0% { left:0px; top:0;}
+  100% { left:0px; top:25px;}
+}
+.call-do-action-thumb img {
+    width: 100%;
+}
+.call-do-button {
+    display: contents;
+}
+/* pricing-area-start */
+.pricing-area {
+    padding: 80px 0 80px 0;
+}
+.single-pricing {
+    padding: 40px 0 0 0;
+}
+span.dollar {
+    font-size: 35px;
+    top: 6px;
+}
+.price-featur ul li {
+    font-size: 13px;
+}
+.priceing-btn a {
+    font-size: 14px;
+}
+/* map-area-start */
+.map-area {
+    padding: 80px 0 160px 0;
+}
+.map-bg {
+    display: none;
+}
+.map-bg.active {
+    display: block;
+}
+.map-content.active {
+    left: -32px;
+    width: 254px;
+}
+.single-map.two {
+    top: 0;
+    left: 30px;
+}
+.map-description p {
+    font-size: 13px;
+}
+.barand-area {
+    background-color: #ECF6FC;
+    padding: 80px 0 80px 0;
+}
+.portfolio-section {
+    padding: 80px 0px 50px 0px;
+}
+/* blog-area-start */
+.blog-description p {
+    font-size: 14px;
+}
+.blog-details-inner p {
+    font-size: 15px;
+}
+.blog-area.blog-details-area {
+    padding: 80px 0 60px 0;
+}
+.blog-area.blog-grid {
+    background: #fff;
+    padding: 70px 0 40px 0;
+}
+.blog-list-inner h3 a {
+    font-size: 18px;
+}
+.blog-area .section-description p {
+    width: 100%;
+}
+.blog-title h3 {
+    font-size: 18px;
+}
+.blog-meta a, .blog-meta span {
+    margin-right: 5px;
+    font-size: 13px;
+}
+.blog-meta span::before {
+	display:none;
+}
+.blog-area .owl-nav {
+    display:none;
+}
+.blog-content {
+    padding: 22px 18px 32px;
+}
+/* blog area start */
+.breatcome-area {
+    padding: 120px 0 120px 0;
+}
+.breatcome-title h1 {
+    font-size: 30px;
+}
+.breatcome-text ul li a {
+    font-size: 14px;
+}
+.breatcome-text ul li span {
+    font-size: 14px;
+}
+.single-blog-details .blog-content {
+	padding: 38px 20px 45px;
+}
+a.blog-comment {
+	display: none;
+}
+.blog-form-field {
+	width: 90%;
+}
+.blog-list-left input[type="submit"] {
+	padding: 8px 13px;
+}
+.recent-post-thumb {
+	margin-right: 20px;
+	width: auto;
+}
+p.blog-submit-button {
+	right: -27px;
+}
+.blog-calender td {
+	padding: 5px 0;
+}
+.blog-list-left {
+	padding: 35px 20px 35px;
+}
+.blog-list-left input[type="email"] {
+	width: 68% !important;
+}
+.blog-calender {
+	padding: 35px 15px 35px 15px;
+}
+.single-blog-list {
+	padding: 35px 15px 10px;
+}
+.blog-dtls-desc {
+	padding: 2px 10px 12px;
+	font-size: 17px;
+}
+.blog-area .section-description p {
+	width: 100%;
+}
+.blog-meta-date {
+	bottom: -28px;
+	right: 20px;
+	padding: 4px 10px 8px 10px;
+	box-shadow: 0 10px 60px #0003;
+}
+.blog-area.project-area .blog-meta span {
+	margin-right: 18px;
+}
+.blog-area.project-area .blog-meta a {
+	margin: 0;
+}
+.blog-meta span::before {
+	display: none;
+}
+.blog-details-inner h3 {
+    font-size: 20px;
+}
+.blog-details-social-icon a i {
+    margin: 5px 10px 5px 10px;
+}
+.blog-details-social-icon {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.comment-area .input-button {
+    margin-bottom: 60px;
+}
+.comment-area .input-button button {
+    padding: 12px 30px;
+}
+/* contact area start */
+.contact-address {
+    padding: 50px 0px 15px 10px;
+}
+.contact-icon i {
+    font-size: 30px;
+    padding-right: 8px;
+}
+.contact-title h2 {
+    font-size: 25px;
+}
+.contact-inner .description p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.input-box textarea {
+    height: 120px;
+}
+.contact-title {
+    padding: 40px 0 0 0;
+}
+.contact-area {
+    padding: 0 0 80px 0;
+}
+.contact-section {
+    padding: 25px 10px 25px 10px;
+}
+/* faq area start */
+.faq-single-thumb.img-animation img {
+    width: 100%;
+}
+.faq-area .section-description p {
+    width: 100%;
+}
+ul.accordion li a.active::before {
+    width: 70%;
+}
+.faq-single-thumb.img-animation {
+    padding-top: 30px;
+    width: 100%;
+    margin: auto;
+}
+ul.accordion li a.active i {
+    transform: rotate(90deg);
+    right: 24px;
+    top: 15px;
+}
+ul.accordion li a.active::before {
+    left: 10px;
+}
+.faq-area .accordion a {
+    font-size: 15px;
+    text-indent: 0;
+    width: 100%;
+    padding: 15px 50px 15px 15px;
+}
+.faq-area {
+    padding: 85px 0px 50px 0px;
+}
+.faq-area .accordion p {
+    font-size: 15px;
+}
+.faq-area .accordion li a.active {
+    padding: 15px 60px 0 10px;
+    font-size: 17px;
+}
+/* footer-area-start */
+.footer-area {
+    padding: 80px 0 20px;
+}
+.widget-title h4 {
+    font-size: 20px;
+}
+.single-widget.upper {
+    padding-left: 0;
+}
+.widge-social-icon {
+    margin: 25px 0 30px 0;
+}
+.copyright-text {
+    margin-top: 40px;
+}
+.single-widget.four {
+    right: 0;
+    width: 100%;
+}
+.form-field input {
+    font-size: 14px;
+    height: 50px;
+    width: 75%;
+}
+.submit-button {
+    right: 8px;
+}
+.submit-button {
+    height: 50px;
+}
+.form-field button {
+    font-size: 13px;
+}
+.form-field input:focus {
+    width: 75%;
+}
+.footer-area input[type="email"]:focus {
+    width:75%;
+}
+.copyright-text p {
+    font-size: 14px;
+}
+.footer-menu {
+    text-align: left;
+}
+.footer-menu ul li a {
+    font-size: 14px;
+    padding: 0 10px 0 0;
+}
+a.widget-apps {
+    padding: 0;
+}
+.widget-icon-thumb a img {
+    width: 45%;
+}
+#scrollUp {
+    bottom: 20px;
+    font-size: 27px;
+    right: 10px;
+}
+
+
+}
