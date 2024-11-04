@@ -26,10 +26,10 @@ Route::get('/', function () {
 // Route::get('/home', function () {
 //     return view('front_office.index');
 // })->name('home');
-
 Route::get('/candidates', function () {
     return view('front_office.candidates');
 })->name('candidates');
+
 
 // Route::get('/register', function () {
 //     return view('back_office.register');
